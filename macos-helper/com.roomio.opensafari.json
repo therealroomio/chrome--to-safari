@@ -1,0 +1,9 @@
+{
+  "name": "com.roomio.opensafari",
+  "description": "Open links in Safari",
+  "path": "/Applications/OpenInSafariHelper.app/Contents/MacOS/OpenInSafariHelper",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://__EXTENSION_ID__/"
+  ]
+}

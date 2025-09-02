@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Safari",
+  "version": "0.1.0",
+  "description": "Toolbar button to open the current tab in Safari via a native helper.",
+  "permissions": ["tabs", "nativeMessaging"],
+  "background": {
+    "service_worker": "dist/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Open in Safari"
+  },
+  "host_permissions": ["<all_urls>"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "open-in-safari-extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.227",
+    "typescript": "^5.6.3"
+  }
+}
